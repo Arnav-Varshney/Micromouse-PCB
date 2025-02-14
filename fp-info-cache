@@ -1,4 +1,11 @@
-24416118598831967
+24419592034626618
+ARDUINO_NANO_A000005
+MODULE_ARDUINO_NANO_A000005
+
+
+0
+30
+30
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56546,13 +56553,6 @@ LCD 16x2 Alphanumeric 16pin
 20
 16
 Display
-I2C_LCD(OLED)
-
-
-0
-4
-4
-Display
 LCD-016N002L
 16 x 2 Character LCD, http://www.vishay.com/product?docid=37299
 LCD-016N002L 16 x 2 Character LCD
@@ -65575,6 +65575,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCU_arduino_nano
+Arduino_nano
+
+
+0
+30
+30
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -90509,6 +90516,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SPST
+JUDCOSPST
+
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -90537,13 +90551,6 @@ DFN Sensor optical IR
 0
 8
 8
-Sensor
-HC-SR04
-
-
-0
-4
-4
 Sensor
 LuminOX_LOX-O2
 SST LuminOX Luminescence-based O2 sensor, https://sstsensing.com/wp-content/uploads/2021/08/DS0030rev15_LuminOx.pdf
@@ -92186,6 +92193,13 @@ Symbol
 WEEE-Logo_28.1x40mm_SilkScreen
 Waste Electrical and Electronic Equipment Directive
 Logo WEEE
+0
+0
+0
+TB6612FNG
+TB6612FNG
+
+
 0
 0
 0
