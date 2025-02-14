@@ -1141,7 +1141,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "IN+"
@@ -1159,7 +1159,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "IN-"
@@ -1177,7 +1177,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin bidirectional line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name "OUT+"
@@ -1195,7 +1195,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin bidirectional line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "OUT-"
@@ -2855,26 +2855,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7244 13.2334 0)
+			(property "Reference" "U5"
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "VL53L0X"
-				(at -8.9105 7.5954 0)
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "VL53L0X:SENSOR_VL53L0X"
-				(at 44.958 -6.35 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2884,7 +2882,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 21.844 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2893,7 +2891,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 21.844 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2902,7 +2900,7 @@
 				)
 			)
 			(property "MF" "STMicroelectronics"
-				(at 17.526 -5.842 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2922,7 +2920,7 @@
 				)
 			)
 			(property "Package" "None"
-				(at 21.844 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2932,7 +2930,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 21.844 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2952,7 +2950,7 @@
 				)
 			)
 			(property "PART_REV" "1.0"
-				(at 21.844 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2962,7 +2960,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendation"
-				(at 17.526 -9.144 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2982,7 +2980,7 @@
 				)
 			)
 			(property "MP" "VL53L0X"
-				(at 21.844 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2992,7 +2990,7 @@
 				)
 			)
 			(property "Availability" "Not in stock"
-				(at 40.132 -4.064 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3002,7 +3000,7 @@
 				)
 			)
 			(property "MANUFACTURER" "ST Microelectronics"
-				(at 7.874 -3.048 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3025,7 +3023,7 @@
 				)
 			)
 			(symbol "VL53L0X_1_0"
-				(pin power_in line
+				(pin output line
 					(at 21.59 12.7 180)
 					(length 5.08)
 					(name "GND"
@@ -3097,7 +3095,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at 21.59 15.24 180)
 					(length 5.08)
 					(name "Vin"
@@ -3846,7 +3844,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "BO2"
 		(shape input)
 		(at 158.115 94.615 0)
 		(fields_autoplaced yes)
@@ -3858,7 +3856,7 @@
 		)
 		(uuid "4ca2df39-6385-485d-82dc-e4102ed7433f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.9707 94.615 0)
+			(at 164.9102 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3932,7 @@
 			)
 		)
 	)
-	(global_label "motor voltage"
+	(global_label "AO1"
 		(shape input)
 		(at 130.81 45.72 180)
 		(fields_autoplaced yes)
@@ -3946,7 +3944,7 @@
 		)
 		(uuid "567482e3-7eb3-4dba-8ef5-b4ec30c7ea8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.4599 45.72 0)
+			(at 124.1962 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +4108,7 @@
 			)
 		)
 	)
-	(global_label "motor voltage"
+	(global_label "AO1 "
 		(shape input)
 		(at 158.115 84.455 0)
 		(fields_autoplaced yes)
@@ -4122,7 +4120,7 @@
 		)
 		(uuid "79da7e9c-845f-472c-bbcc-4fcc12036524")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4651 84.455 0)
+			(at 165.6964 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4174,7 @@
 			)
 		)
 	)
-	(global_label "motor voltage"
+	(global_label "BO1"
 		(shape input)
 		(at 158.115 92.075 0)
 		(fields_autoplaced yes)
@@ -4188,7 +4186,7 @@
 		)
 		(uuid "837b71ef-f372-426c-b353-6609fba0c3b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4651 92.075 0)
+			(at 164.9102 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4372,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "AO2"
 		(shape input)
 		(at 158.115 86.995 0)
 		(fields_autoplaced yes)
@@ -4386,7 +4384,7 @@
 		)
 		(uuid "a0b9cff7-e473-4cdf-afe5-95b61cd71ae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.9707 86.995 0)
+			(at 164.7288 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4438,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "AO2"
 		(shape input)
 		(at 130.81 48.26 180)
 		(fields_autoplaced yes)
@@ -4452,7 +4450,7 @@
 		)
 		(uuid "ab4dc54d-81d9-4655-a890-ee6e5934a477")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.9543 48.26 0)
+			(at 124.1962 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4834,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "BO2"
 		(shape input)
 		(at 132.715 120.015 180)
 		(fields_autoplaced yes)
@@ -4848,7 +4846,7 @@
 		)
 		(uuid "de8dd1a1-6945-40a7-982b-1f0ca1bd8f7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.8593 120.015 0)
+			(at 125.9198 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +4966,7 @@
 			)
 		)
 	)
-	(global_label "motor voltage"
+	(global_label "BO1"
 		(shape input)
 		(at 132.715 117.475 180)
 		(fields_autoplaced yes)
@@ -4980,7 +4978,7 @@
 		)
 		(uuid "fc52908b-9bda-4442-b5bb-2ad8a2a9577f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3649 117.475 0)
+			(at 125.9198 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
