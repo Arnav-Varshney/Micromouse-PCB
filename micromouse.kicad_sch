@@ -177,6 +177,509 @@
 				)
 			)
 		)
+		(symbol "GY521:GY-521"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ACC"
+				(at -9.652 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GY-521"
+				(at 4.572 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "GODREAM FORDREAM CO., LIMITED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Triple Axis Accelerometer Gyro Breakout\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "GY-521"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "GY-521_0_0"
+				(arc
+					(start -11.43 -9.43)
+					(mid -10.8442 -10.8442)
+					(end -9.43 -11.43)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -9.43 11.43)
+					(mid -10.8442 10.8442)
+					(end -11.43 9.43)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 -9.43) (xy -11.43 9.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.43 11.43) (xy 4.35 11.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -3.175) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -3.175) (xy -1.27 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -3.175 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.35 -11.43) (xy -9.43 -11.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 9.43) (xy 6.35 -9.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.35 -11.43)
+					(mid 5.7642 -10.8442)
+					(end 6.35 -9.43)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 9.43)
+					(mid 5.7642 10.8442)
+					(end 4.35 11.43)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "MPU"
+					(at 0 -10.16 0)
+					(effects
+						(font
+							(size 2 2)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -6.35 0)
+					(length 5.08)
+					(name "AD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -8.89 0)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 3.81 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 1.27 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 8.89 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -3.81 0)
+					(length 5.08)
+					(name "XCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "XCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -1.27 0)
+					(length 5.08)
+					(name "XDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "XDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "STM32 blackpill:STM32F411CEU6_"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1540,20 +2043,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 2.032 0)
+			(property "Reference" "U1"
+				(at 3.1751 -5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "BUCK"
+				(at 1.27 -5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -2006,211 +2511,6 @@
 					(at -7.62 3.81 0)
 					(length 2.54)
 					(name "motor_vcc"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "mpu 6050:mpu_6050"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.096 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "mpu_6050_1_1"
-				(rectangle
-					(start -3.81 8.89)
-					(end 3.81 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 -7.62 0)
-					(length 2.54)
-					(name "ADD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 -10.16 0)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 -5.08 0)
-					(length 2.54)
-					(name "XCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "XDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -6.35 5.08 0)
-					(length 2.54)
-					(name "gnd"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -6.35 7.62 0)
-					(length 2.54)
-					(name "vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2740,7 +3040,7 @@
 		(uuid "88651459-f6de-40d8-88ed-41baed13e232")
 	)
 	(no_connect
-		(at 261.62 89.535)
+		(at 254 87.63)
 		(uuid "89c6b3ce-692f-4900-88ef-dacfd5b3069a")
 	)
 	(no_connect
@@ -2756,7 +3056,7 @@
 		(uuid "a4ad69ac-5d5e-4d46-b5fa-e02c9ffc186a")
 	)
 	(no_connect
-		(at 261.62 97.155)
+		(at 254 95.25)
 		(uuid "ab8915b6-ff1f-4524-a311-023f9283bdfc")
 	)
 	(no_connect
@@ -2776,7 +3076,7 @@
 		(uuid "d69d8b34-fa6d-4ac0-82aa-9c0cb7a6f402")
 	)
 	(no_connect
-		(at 261.62 94.615)
+		(at 254 92.71)
 		(uuid "d760c1cf-9d61-451d-b5fb-880a5eb7aef9")
 	)
 	(no_connect
@@ -2796,7 +3096,7 @@
 		(uuid "ebd05936-3b0f-4f60-8e57-93abfdd81835")
 	)
 	(no_connect
-		(at 261.62 92.075)
+		(at 254 90.17)
 		(uuid "fc1b3ecb-3c29-49aa-b013-19b92f7254db")
 	)
 	(rectangle
@@ -2949,7 +3249,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 261.62 81.915 180)
+		(at 254 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2959,7 +3259,7 @@
 		)
 		(uuid "1631ee9b-a24f-4d2b-9471-76cb9a6b2cfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.7643 81.915 0)
+			(at 247.1443 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +4063,7 @@
 	)
 	(global_label "3.3v"
 		(shape input)
-		(at 261.62 79.375 180)
+		(at 254 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3773,7 +4073,7 @@
 		)
 		(uuid "92de0565-5744-4abe-b74e-970998beccee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.6434 79.375 0)
+			(at 247.0234 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,6 +4391,28 @@
 			)
 		)
 	)
+	(global_label "7.4vb"
+		(shape input)
+		(at 34.925 128.905 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1962c0e-54f8-4d51-a683-499f332f953c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.925 137.0306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 194.31 95.25 180)
@@ -4113,7 +4435,7 @@
 			)
 		)
 	)
-	(global_label "7.4vb"
+	(global_label "7.4v"
 		(shape input)
 		(at 36.195 53.34 90)
 		(fields_autoplaced yes)
@@ -4125,7 +4447,7 @@
 		)
 		(uuid "c7cf3fa8-ebeb-4ff8-b20f-e6ec32bd8c15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.195 45.2144 90)
+			(at 36.195 46.3634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4547,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 261.62 86.995 180)
+		(at 254 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4235,7 +4557,7 @@
 		)
 		(uuid "d7a773be-3050-4d24-b83d-5a3f763cbb52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.0667 86.995 0)
+			(at 247.4467 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4657,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 261.62 84.455 180)
+		(at 254 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4345,7 +4667,7 @@
 		)
 		(uuid "e28f4a6b-ddd0-405c-b605-71ea4ed175cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.1272 84.455 0)
+			(at 247.5072 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,28 +4717,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "7.4v"
-		(shape input)
-		(at 34.925 128.905 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1ef1b79-16d4-4bbc-af9f-d60702d25a59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.925 135.8816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4510,17 +4810,17 @@
 		)
 	)
 	(symbol
-		(lib_id "mpu 6050:mpu_6050")
-		(at 267.97 86.995 0)
+		(lib_id "GY521:GY-521")
+		(at 270.51 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e0284a3-491f-4de7-bbf5-fd31565d71ef")
-		(property "Reference" "U9"
-			(at 273.05 87.6299 0)
+		(uuid "42199846-b255-4b4d-b1f5-f1e4e5f6606b")
+		(property "Reference" "ACC1"
+			(at 278.13 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,8 +4828,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 273.05 89.535 0)
+		(property "Value" "GY-521"
+			(at 278.13 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,8 +4837,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 267.97 86.995 0)
+		(property "Footprint" "GY-521:GY-521_SMD"
+			(at 270.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 86.995 0)
+			(at 270.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 86.995 0)
+			(at 270.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,34 +4864,114 @@
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "dfe26d36-1a87-4dd8-979d-058bd146ed36")
+		(property "MF" "GODREAM FORDREAM CO., LIMITED"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "e1652ad1-c5cd-4ad1-a72a-a75d83b1e69b")
+		(property "Description_1" "\n                        \n                            Triple Axis Accelerometer Gyro Breakout\n                        \n"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "d333e7bb-b78b-4347-b53e-2c79aa9fe08e")
+		(property "Package" "Package"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "099427ba-822e-4283-9535-d643190b537c")
+		(property "Price" "None"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "040cd1d2-d23f-4c92-8062-96374af401e9")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "87f5fcd8-8355-4b54-9286-4d0ad810975d")
+		(property "MP" "GY-521"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "dc8ebd8c-7c06-41b2-9f74-094f07024c37")
+		(property "Availability" "Not in stock"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin ""
-			(uuid "ba0ec7bd-1201-401d-88a7-b13d14c9398c")
+		(property "Check_prices" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "AD0"
+			(uuid "65344495-20be-411b-8c77-cd97b7018cb4")
+		)
+		(pin "GND"
+			(uuid "9fbc1b48-a8ee-4c81-b32d-9712a79384f7")
+		)
+		(pin "SCL"
+			(uuid "0f59c2ec-d8cf-45a9-886e-0c0236da5036")
+		)
+		(pin "SDA"
+			(uuid "26eabbda-7552-4374-b2a5-1d0d1154c1c8")
+		)
+		(pin "VCC"
+			(uuid "738fcb6b-1961-4ace-a33e-ae864dff86ca")
+		)
+		(pin "XCL"
+			(uuid "e4b49b1c-e795-404a-9b00-8d7db8e0a823")
+		)
+		(pin "XDA"
+			(uuid "884f2cbc-c23d-4e9e-8e1b-32a761170951")
+		)
+		(pin "INT"
+			(uuid "f9c88c75-b9a1-422e-b4f1-a29a6004742b")
 		)
 		(instances
 			(project ""
 				(path "/ad2eaac4-906f-408a-b5e5-135c4e396716"
-					(reference "U9")
+					(reference "ACC1")
 					(unit 1)
 				)
 			)
@@ -4754,7 +5134,7 @@
 				)
 			)
 		)
-		(property "Value" "VL53L0X"
+		(property "Value" "VL53L0X middle"
 			(at 212.09 109.22 0)
 			(effects
 				(font
@@ -4762,7 +5142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL53L0X:SENSOR_VL53L0X"
+		(property "Footprint" "VL53L0X:VL53L0X"
 			(at 253.238 153.67 0)
 			(effects
 				(font
@@ -5011,7 +5391,6 @@
 		)
 	)
 	(symbol
-		(lib_name "encoder motor:encoder_motor")
 		(lib_id "encoder motor:encoder_motor")
 		(at 140.335 121.285 0)
 		(unit 1)
@@ -5332,7 +5711,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BUCK"
 			(at 40.005 122.555 90)
 			(effects
 				(font
@@ -5590,7 +5969,7 @@
 				)
 			)
 		)
-		(property "Value" "VL53L0X"
+		(property "Value" "VL53L0X right"
 			(at 212.09 77.47 0)
 			(effects
 				(font
@@ -5598,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL53L0X:SENSOR_VL53L0X"
+		(property "Footprint" "VL53L0X:VL53L0X"
 			(at 253.238 121.92 0)
 			(effects
 				(font
@@ -5782,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Value" "VL53L0X"
+		(property "Value" "VL53L0X left"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -5790,7 +6169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL53L0X:SENSOR_VL53L0X"
+		(property "Footprint" "VL53L0X:VL53L0X"
 			(at 253.238 88.9 0)
 			(effects
 				(font
@@ -5983,7 +6362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPST:JUDCOSPST"
 			(at 36.195 86.995 0)
 			(effects
 				(font
