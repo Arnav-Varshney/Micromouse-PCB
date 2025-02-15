@@ -5116,7 +5116,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VL53L0X:VL53L0X")
 		(lib_id "VL53L0X:VL53L0X")
 		(at 208.28 147.32 0)
 		(unit 1)
@@ -5497,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TB6612FNG:TB6612FNG"
+		(property "Footprint" "Tb6612fng:TB6612FNG"
 			(at 142.875 89.535 0)
 			(effects
 				(font
@@ -5951,7 +5950,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VL53L0X:VL53L0X")
 		(lib_id "VL53L0X:VL53L0X")
 		(at 208.28 115.57 0)
 		(unit 1)
@@ -6143,7 +6141,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VL53L0X:VL53L0X")
 		(lib_id "VL53L0X:VL53L0X")
 		(at 208.28 82.55 0)
 		(unit 1)
