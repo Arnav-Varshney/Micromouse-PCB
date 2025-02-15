@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.254 16.256 0)
+			(at -3.81 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -1.27 0 0)
+		(property "Value" "STM32 Blackpill"
+			(at -3.556 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
