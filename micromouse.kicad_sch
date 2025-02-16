@@ -3912,7 +3912,7 @@
 			)
 		)
 	)
-	(global_label "AO1 "
+	(global_label "AO1"
 		(shape input)
 		(at 158.115 84.455 0)
 		(fields_autoplaced yes)
@@ -3924,7 +3924,7 @@
 		)
 		(uuid "79da7e9c-845f-472c-bbcc-4fcc12036524")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.6964 84.455 0)
+			(at 164.7288 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
