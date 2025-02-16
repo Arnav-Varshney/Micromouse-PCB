@@ -18,7 +18,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ROB-14450"
+		(property "Value" "TB6612FNG"
 			(at -5.588 -16.002 0)
 			(effects
 				(font
@@ -177,24 +177,6 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at 15.24 10.16 180)
-				(length 5.08)
-				(name "VM"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -15.24 10.16 0)
 				(length 5.08)
@@ -321,42 +303,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 12.7 180)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -10.16 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 15.24 5.08 180)
 				(length 5.08)
@@ -429,7 +375,63 @@
 					)
 				)
 			)
-			(pin power_in line
+		)
+		(symbol "ROB-14450_1_0"
+			(pin bidirectional line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "VM"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 12.7 180)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "GND"
@@ -447,7 +449,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "GND"

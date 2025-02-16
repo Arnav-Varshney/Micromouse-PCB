@@ -361,7 +361,7 @@
 			)
 		)
 		(symbol "GY-521_1_0"
-			(pin power_in line
+			(pin bidirectional line
 				(at -16.51 8.89 0)
 				(length 5.08)
 				(name "VCC"
@@ -379,7 +379,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -16.51 6.35 0)
 				(length 5.08)
 				(name "GND"
