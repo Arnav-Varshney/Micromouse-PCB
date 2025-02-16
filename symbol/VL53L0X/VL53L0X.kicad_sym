@@ -180,6 +180,24 @@
 		)
 		(symbol "VL53L0X_1_0"
 			(pin bidirectional line
+				(at 21.59 15.24 180)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 21.59 12.7 180)
 				(length 5.08)
 				(name "GND"
@@ -189,25 +207,7 @@
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 21.59 25.4 180)
-				(length 5.08)
-				(name "GPIO1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -225,7 +225,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -243,7 +243,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -251,17 +251,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 21.59 15.24 180)
+			(pin output line
+				(at 21.59 25.4 180)
 				(length 5.08)
-				(name "Vin"
+				(name "GPIO1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -279,7 +279,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "6"
 					(effects
 						(font
 							(size 1.016 1.016)

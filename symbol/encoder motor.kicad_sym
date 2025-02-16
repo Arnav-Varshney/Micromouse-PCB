@@ -62,16 +62,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 -8.89 0)
+				(at -7.62 3.81 0)
 				(length 2.54)
-				(name "encoder_ground"
+				(name "motor_1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -80,16 +80,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 -3.81 0)
+				(at -7.62 -8.89 0)
 				(length 2.54)
-				(name "encoder_output"
+				(name "gnd"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -100,14 +100,32 @@
 			(pin bidirectional line
 				(at -7.62 -1.27 0)
 				(length 2.54)
-				(name "encoder_output"
+				(name "c1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -3.81 0)
+				(length 2.54)
+				(name "c2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,14 +136,14 @@
 			(pin bidirectional line
 				(at -7.62 -6.35 0)
 				(length 2.54)
-				(name "encoder_vcc"
+				(name "vcc"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -133,35 +151,17 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -7.62 1.27 0)
 				(length 2.54)
-				(name "motor_gnd"
+				(name "motor_2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 3.81 0)
-				(length 2.54)
-				(name "motor_vcc"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

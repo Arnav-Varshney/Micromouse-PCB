@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 22.098 -16.97 0)
+		(at -1.27 0.302 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5c4db084-0f11-4532-a762-68789ac777a4")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "buck"
-		(at 22.098 -15.47 0)
+		(at -1.27 1.802 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "21fbf8a7-1da6-45ee-9c89-adedae1b1eed")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 22.098 -16.47 0)
+		(at -1.27 0.802 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 22.098 -16.47 0)
+		(at -1.27 0.802 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 22.098 -16.47 0)
+		(at -1.27 0.802 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -79,7 +79,7 @@
 		(uuid "b3493de1-df08-402d-963e-82a4f3b1ebfc")
 	)
 	(fp_rect
-		(start -7.62 -6.35)
+		(start -7.62 -6.096)
 		(end 4.826 11.938)
 		(stroke
 			(width 0.05)
@@ -90,7 +90,7 @@
 		(uuid "a3244bdb-9e90-4933-ae14-a80755f56b09")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 22.098 -13.97 0)
+		(at -1.27 3.302 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "af55a39f-0ef0-45a1-8e4e-bab0137991d0")
