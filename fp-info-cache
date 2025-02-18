@@ -1,4 +1,4 @@
-24430036281023186
+24431776339957480
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98657,6 +98657,13 @@ buck
 0
 4
 4
+oled
+oled
+
+
+0
+0
+0
 push button
 push_button
 
