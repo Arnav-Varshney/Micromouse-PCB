@@ -4656,7 +4656,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 259.715 121.285 180)
+		(at 256.54 121.158 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4666,7 +4666,7 @@
 		)
 		(uuid "ac982c0d-3e49-48e9-8ec7-82981df48aed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.1617 121.285 0)
+			(at 249.9867 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4898,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 259.715 118.745 180)
+		(at 256.54 118.618 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4908,7 +4908,7 @@
 		)
 		(uuid "c95b8f08-2806-4811-953f-f174578522a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.2222 118.745 0)
+			(at 250.0472 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5118,7 @@
 	)
 	(global_label "3.3v"
 		(shape input)
-		(at 259.715 116.205 180)
+		(at 256.54 116.078 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5128,7 +5128,7 @@
 		)
 		(uuid "e1818714-c090-4f6c-ab39-edc6c41ab9f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.7384 116.205 0)
+			(at 249.5634 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5140,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 259.715 113.665 180)
+		(at 256.54 113.538 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5150,7 +5150,7 @@
 		)
 		(uuid "e1cfce05-2e03-44e1-8087-5b2d57e90058")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.8593 113.665 0)
+			(at 249.6843 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6739,7 @@
 	)
 	(symbol
 		(lib_id "Screen_oled:Oled")
-		(at 267.335 117.475 270)
+		(at 264.16 117.348 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6748,7 +6748,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5c7e4db-cfab-4938-b763-c084c7c6268d")
 		(property "Reference" "U9"
-			(at 273.05 116.2049 90)
+			(at 269.875 116.0779 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6757,7 @@
 			)
 		)
 		(property "Value" "oled i2c"
-			(at 273.05 118.7449 90)
+			(at 269.875 118.6179 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +6766,7 @@
 			)
 		)
 		(property "Footprint" "oled:oled"
-			(at 263.525 114.935 0)
+			(at 260.35 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +6775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 263.525 114.935 0)
+			(at 260.35 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,7 +6784,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 263.525 114.935 0)
+			(at 260.35 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
