@@ -1,24 +1,10 @@
 {
   "board": {
     "active_layer": 31,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "push button",
-      "XSHUT 1",
-      "XSHUT 2",
-      "encoder A2",
-      "STBY",
-      "encoder A1",
-      "PWM B",
-      "encoder B1",
-      "XSHUT 3",
-      "push button 1",
-      "encoder B2",
-      "PWM A",
-      "slide_SW"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -78,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffff_7ffffffe",
     "zone_display_mode": 0
   },
   "git": {
