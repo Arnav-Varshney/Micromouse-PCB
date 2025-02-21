@@ -3391,10 +3391,6 @@
 		(uuid "dc63a76b-f134-4b43-929b-dfca265b1db7")
 	)
 	(no_connect
-		(at 90.17 77.47)
-		(uuid "e56ace55-85ec-4b25-857b-2edb4c26a0a5")
-	)
-	(no_connect
 		(at 67.31 62.23)
 		(uuid "ea8a2cb6-1c1e-4555-8ecf-b67d7c5caca3")
 	)
@@ -3660,6 +3656,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "slide_SW"
+		(shape input)
+		(at 90.17 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f84fab4-fcde-4acd-882f-e402ff53a7ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.3194 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
