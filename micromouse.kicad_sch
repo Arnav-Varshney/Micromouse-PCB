@@ -5591,7 +5591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "push button:push_button"
+		(property "Footprint" "push button 1:SW_VS-1213-67-160GF"
 			(at 78.74 116.205 0)
 			(effects
 				(font
@@ -6118,7 +6118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "push button:push_button"
+		(property "Footprint" "push button 1:SW_VS-1213-67-160GF"
 			(at 79.375 104.14 0)
 			(effects
 				(font
