@@ -1,4 +1,4 @@
-24449167700875657
+24452648318014296
 ARDUINO_NANO_A000005
 MODULE_ARDUINO_NANO_A000005
 
@@ -98720,6 +98720,13 @@ oled
 0
 4
 4
+power switch
+battery_sw
+
+
+0
+2
+2
 push button
 push_button
 
@@ -98734,6 +98741,13 @@ SW_VS-1213-67-160GF
 0
 4
 4
+rnc
+rnc
+
+
+0
+0
+0
 slide switch
 SLIDE SW
 

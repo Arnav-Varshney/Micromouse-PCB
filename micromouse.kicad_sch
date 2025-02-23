@@ -1779,7 +1779,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "SPST:JUDCOSPST"
+			(property "Footprint" "power switch:battery_sw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1853,24 +1853,6 @@
 			)
 			(symbol "SW_SPST_1_1"
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "A"
@@ -1880,7 +1862,25 @@
 							)
 						)
 					)
-					(number "T"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3832,7 +3832,7 @@
 			)
 		)
 	)
-	(global_label "5v"
+	(global_label "3.3v"
 		(shape input)
 		(at 158.115 76.835 0)
 		(fields_autoplaced yes)
@@ -3844,7 +3844,7 @@
 		)
 		(uuid "403b7ce1-e4a5-4826-b37c-d4c3d4575434")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.2773 76.835 0)
+			(at 165.0916 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7259,7 +7259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SPST:JUDCOSPST"
+		(property "Footprint" "power switch:battery_sw"
 			(at 33.655 81.915 0)
 			(effects
 				(font
@@ -7286,10 +7286,10 @@
 				(hide yes)
 			)
 		)
-		(pin "T"
+		(pin "2"
 			(uuid "3de96c89-0f8c-455c-b031-e5731204eca4")
 		)
-		(pin "P"
+		(pin "1"
 			(uuid "6f4767c0-6381-43fe-bc6c-c3fd1f4f43fa")
 		)
 		(instances
