@@ -1,10 +1,10 @@
 (footprint "GY-521_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 8.128 -17.018 0)
+		(at 10.16 -7.112 0)
 		(layer "F.SilkS")
 		(uuid "8cb1d65f-85cf-4cfc-b54f-839d5167bbb0")
 		(effects
@@ -15,24 +15,12 @@
 		)
 	)
 	(property "Value" "GY-521_SMD"
-		(at 9.144 -14.478 0)
+		(at 9.3265 -5.334 0)
 		(layer "F.Fab")
 		(uuid "2a24f80d-35ec-45c7-8c58-2c40bd1f9574")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5b397a2a-22e3-4bce-a0bd-d01a5889ff17")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -239,7 +227,7 @@
 			(width 0.3048)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "dfc92e33-4285-4992-b497-23dc544f8896")
 	)
@@ -250,7 +238,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f716cbc8-f4db-416d-97df-f0921198a5ca")
 	)
@@ -261,7 +249,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "65669702-2d25-4a6a-b649-07cc14229ee8")
 	)
@@ -272,9 +260,61 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f3454d93-0dec-478e-9837-d0f110658f97")
+	)
+	(fp_text user "SDA"
+		(at 3.048 -11.684 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "64332b54-b325-4100-81eb-e3a4b536884e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VCC"
+		(at 3.048 -19.304 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6febd369-52bd-427e-8f09-3a50afcfd0b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 3.048 -16.764 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "740cf89e-d17c-4349-8e73-c170261afff2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at 3.048 -14.224 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe81b0e0-7b63-4360-877c-a38960e5cba2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" thru_hole circle
 		(at 1.778 -19.812)
@@ -348,4 +388,5 @@
 		(solder_mask_margin 0.102)
 		(uuid "93b31a1d-158c-4f67-ab7a-cbe25b7e9867")
 	)
+	(embedded_fonts no)
 )
