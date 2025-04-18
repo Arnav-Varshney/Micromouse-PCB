@@ -1,4 +1,4 @@
-24751306367332780
+24765265285881441
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99574,3 +99574,59 @@ Varistor VF
 0
 2
 2
+buck
+buck
+
+
+0
+4
+4
+castor
+castor
+
+
+0
+0
+0
+n20 motor
+Untitled
+
+
+0
+0
+0
+n20 motor
+n20 motor
+
+
+0
+0
+0
+n20-bracket
+N20 bracket
+
+
+0
+0
+0
+push button
+push_button
+
+
+0
+4
+4
+push button 1
+SW_VS-1213-67-160GF
+
+
+0
+4
+4
+slide switch
+SLIDE SW
+
+
+0
+3
+3
