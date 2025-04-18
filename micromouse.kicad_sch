@@ -2372,6 +2372,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UART:UART"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UART_1_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "VCC"
+					(at -3.81 -1.778 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "GND"
+					(at -1.27 -1.778 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Tx"
+					(at 1.27 -2.54 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Rx"
+					(at 3.81 -2.54 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -1.27 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "VL53L0X:VL6180x"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3615,10 +3781,6 @@
 		(uuid "03fb0dd7-76f7-4d4b-b28c-8c0e490a3c60")
 	)
 	(no_connect
-		(at 90.17 92.71)
-		(uuid "192c94f9-3fac-472b-bcec-a96a9f6d0816")
-	)
-	(no_connect
 		(at 67.31 85.09)
 		(uuid "22b24ac0-4557-4aa3-8391-4d349401715b")
 	)
@@ -3633,10 +3795,6 @@
 	(no_connect
 		(at 229.87 90.17)
 		(uuid "3bf104be-152d-41a9-93f1-311aeb64562d")
-	)
-	(no_connect
-		(at 90.17 82.55)
-		(uuid "47a6ab18-c59a-49e6-823d-def1abba4eec")
 	)
 	(no_connect
 		(at 67.31 57.15)
@@ -3983,6 +4141,28 @@
 		(uuid "27e6e8c9-2ece-429b-bf36-3154cca8a34e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.7837 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Rx"
+		(shape input)
+		(at 262.89 57.15 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cb60a10-21db-4c52-bd40-34ca038d744d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 62.4333 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,6 +4744,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 260.35 57.15 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8371c170-16df-4987-a9a5-2f5acb8441c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.35 64.0057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BO1"
 		(shape input)
 		(at 158.115 92.075 0)
@@ -4608,6 +4810,28 @@
 			)
 		)
 	)
+	(global_label "Tx"
+		(shape input)
+		(at 90.17 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8990c853-ab3c-45c3-84a1-b4a472a9a038")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.1509 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 90.17 52.07 0)
@@ -4621,6 +4845,28 @@
 		(uuid "8cb566e9-9656-4672-bab9-c10f63390b94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.0257 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Rx"
+		(shape input)
+		(at 90.17 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9019feb5-e94e-4dfb-8912-c0d2c3651ae6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.4533 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,6 +5250,28 @@
 			)
 		)
 	)
+	(global_label "Tx"
+		(shape input)
+		(at 265.43 57.15 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "babd8cf1-8147-44d3-979d-a739bf777a08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.43 62.1309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XSHUT 2"
 		(shape input)
 		(at 194.31 121.92 180)
@@ -5202,6 +5470,28 @@
 			)
 		)
 	)
+	(global_label "3.3v"
+		(shape input)
+		(at 257.81 57.15 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9ce42b8-0fc7-461e-a50c-67feef4fe2a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.81 64.1266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "push button 1"
 		(shape input)
 		(at 90.17 67.31 0)
@@ -5226,7 +5516,7 @@
 	)
 	(global_label "XSHUT 2"
 		(shape input)
-		(at 90.17 85.09 0)
+		(at 90.17 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5236,7 +5526,7 @@
 		)
 		(uuid "ccdeba31-2740-451f-8d06-207489570098")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.3799 85.09 0)
+			(at 101.3799 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,6 +6626,82 @@
 			(project ""
 				(path "/ad2eaac4-906f-408a-b5e5-135c4e396716"
 					(reference "ACC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UART:UART")
+		(at 261.62 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bce4ea8-f281-43a0-a433-39156476473c")
+		(property "Reference" "U10"
+			(at 269.24 50.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "839e2525-0bb9-40e8-a178-ec7a9ce3bbc3")
+		)
+		(pin "3"
+			(uuid "167a5f11-fbf2-4d4e-9487-c20e908e2c38")
+		)
+		(pin "2"
+			(uuid "ffeada6b-aa16-4d6a-951c-4f586f20ecaa")
+		)
+		(pin "1"
+			(uuid "8e1c9dcd-a8d3-4a11-8b00-10caf45b9d5d")
+		)
+		(instances
+			(project ""
+				(path "/ad2eaac4-906f-408a-b5e5-135c4e396716"
+					(reference "U10")
 					(unit 1)
 				)
 			)
