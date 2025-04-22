@@ -1,13 +1,13 @@
 (footprint "VL53L0X"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 9.652 -7.342 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "bf86f2c1-572a-4fa7-8d96-e580db43e8bc")
+		(uuid "f907b9e2-3563-43dc-ae3f-d4893a4ead44")
 		(effects
 			(font
 				(size 1 1)
@@ -19,20 +19,7 @@
 		(at 9.652 -5.842 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "bdd358c2-3274-4047-a1b6-b54cb0b6d8b3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 9.652 -6.842 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "037c4116-6429-4513-8dba-87303d2df965")
+		(uuid "1615ce3a-9702-4c12-b57a-e184aea8360a")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "84b6ed42-bc59-48ae-b784-846e41ce0a4a")
+		(uuid "e1149d1d-c14d-43a4-b916-a6bfa9c1d5b5")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dbcefcf5-a1ab-4b81-a218-6a20d4abe210")
+		(uuid "13e34665-d628-4749-a1c9-7a2c1226563a")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "05a1579d-dba0-4002-b795-3348c380b96b")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "97b880e3-e5e7-481c-a68f-a6a711378af9")
 	)
@@ -149,4 +136,5 @@
 		(remove_unused_layers no)
 		(uuid "7b8e125b-1c59-49d1-a0b7-732f55b11335")
 	)
+	(embedded_fonts no)
 )

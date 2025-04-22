@@ -1,7 +1,7 @@
 (footprint "TB6612FNG"
-	(version 20241229)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.127 -2.6524 0)
@@ -21,6 +21,18 @@
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.254 -0.254 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc9d1074-8162-4901-ae9f-9b6f8fbc274b")
+		(effects
+			(font
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -210,230 +222,6 @@
 		(layer "F.Fab")
 		(uuid "6342e2d0-5d12-4847-bd68-2a7f1e14f47a")
 	)
-	(fp_text user "GND\n"
-		(at 4.826 9.398 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "2427a297-221e-4a81-b8df-90fbddd61351")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "BO2\n"
-		(at -6.35 4.318 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "495c33d5-c505-469b-9b85-b5244a59422f")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "B01\n"
-		(at -6.35 6.858 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "5e5903c7-e04e-425f-afb1-4f06469574cf")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "Vm\n"
-		(at -6.35 -8.382 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "70b7a9bc-a849-4fb2-a915-4383dc15a8aa")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "AIN2"
-		(at 4.754 -5.708 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "75de843e-095b-4dac-93e0-0b591638f3ab")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "PWMB"
-		(at 4.254 6.858 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "80aeb361-661a-4fa3-b818-c76746737dff")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "PWMA"
-		(at 4.254 -8.375 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "84b4b13c-6ff0-4f49-9748-51a1a07ab900")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "A01"
-		(at -6.35 -1.016 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "856c69f5-0d30-413e-a5b3-a6b2583317ed")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "BIN1\n"
-		(at 4.572 4.318 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "8a5331f7-0895-4891-8013-6e5c6b49a8bb")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "BIN2"
-		(at 4.572 1.778 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "a709e74e-6dac-4b8e-981b-0e6226f8144e")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "GND\n"
-		(at -6.35 -3.302 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "c251fdc2-b76f-4a95-b026-2623f14ca9e2")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "Vcc"
-		(at -6.35 -6.096 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "ce76731c-3119-42c4-85d2-5ace926b717d")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "STBY"
-		(at 4.572 -0.762 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e172576b-18ba-4627-a4ec-d32600c683fb")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "AIN1"
-		(at 4.754 -3.168 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e272c1d0-77f8-474d-910c-2298dc4b59d7")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "GND\n"
-		(at -6.35 9.398 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e81c8968-0cba-4fa0-a818-0a8e015e1c44")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "AO2\n"
-		(at -6.35 1.524 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "ec8594be-c95c-4bbb-ac51-22ae40d75b76")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(pad "1" thru_hole circle
 		(at -7.62 -8.89)
 		(size 1.7 1.7)
@@ -578,5 +366,4 @@
 		(solder_mask_margin 0.102)
 		(uuid "602e25e8-541d-4045-9374-37a299106b63")
 	)
-	(embedded_fonts no)
 )

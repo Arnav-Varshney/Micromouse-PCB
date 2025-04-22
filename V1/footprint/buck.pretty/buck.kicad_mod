@@ -1,7 +1,7 @@
 (footprint "buck"
-	(version 20241229)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.27 0.302 0)
@@ -20,6 +20,19 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "21fbf8a7-1da6-45ee-9c89-adedae1b1eed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -1.27 0.802 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b601d7b1-37f5-45e3-82a9-2444e6324938")
 		(effects
 			(font
 				(size 1 1)
@@ -56,81 +69,25 @@
 	(attr through_hole)
 	(fp_rect
 		(start -7.366 -5.842)
-		(end 4.572 12.065)
+		(end 4.572 11.684)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill no)
+		(fill none)
 		(layer "F.SilkS")
 		(uuid "b3493de1-df08-402d-963e-82a4f3b1ebfc")
 	)
 	(fp_rect
 		(start -7.62 -6.096)
-		(end 4.826 12.319)
+		(end 4.826 11.938)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
+		(fill none)
 		(layer "F.CrtYd")
 		(uuid "a3244bdb-9e90-4933-ae14-a80755f56b09")
-	)
-	(fp_text user "GND\n"
-		(at 0.254 -3.81 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3beab3d5-cdbb-4010-851a-71f935fa08c8")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "GND\n"
-		(at 0.508 11.049 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "6d492a44-c6b3-431f-bebf-0d5b31231186")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "7.4v"
-		(at -4.572 -3.81 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "90186a85-2883-4786-aab3-1d241efe5569")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "5v"
-		(at -4.572 11.049 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "f0c005a2-35db-410f-9aaf-143ad4fc1926")
-		(effects
-			(font
-				(size 0.8 0.5)
-				(thickness 0.125)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at -1.27 3.302 0)
@@ -154,7 +111,7 @@
 		(uuid "03d01ff5-ea0f-465b-b495-46d9dd6c46f3")
 	)
 	(pad "2" thru_hole circle
-		(at -5.588 10.541)
+		(at -5.588 10.16)
 		(size 1.498 1.498)
 		(drill 0.99)
 		(layers "*.Cu" "*.Mask")
@@ -172,7 +129,7 @@
 		(uuid "a1470115-5f1e-4234-8523-0eea59c9f938")
 	)
 	(pad "4" thru_hole circle
-		(at 3.048 10.541)
+		(at 3.048 10.16)
 		(size 1.498 1.498)
 		(drill 0.99)
 		(layers "*.Cu" "*.Mask")
@@ -180,5 +137,4 @@
 		(solder_mask_margin 0.102)
 		(uuid "9828a0f5-4484-49c0-8cbd-81332509f56d")
 	)
-	(embedded_fonts no)
 )
